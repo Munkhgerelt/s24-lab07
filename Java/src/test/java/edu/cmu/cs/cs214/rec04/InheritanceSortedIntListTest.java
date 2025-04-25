@@ -64,6 +64,7 @@ public class InheritanceSortedIntListTest {
     // add 2 elements to a second list.
     list2.add(3);
     list2.add(0);
+    list2.remove(3);
 
     // check that the total number of elements added is 2.
     assertTrue(list2.getTotalAdded() == 2);
